@@ -1,0 +1,114 @@
+.about-section {
+    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+    height: 515px;
+}
+
+blockquote.quotes {
+  border-left:none;
+  padding: 10px;
+  margin:0px;
+  background-image: url(../../Images/quotes.png);
+  background-position: 30px left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  font-size:15px;
+  margin-left:20px;
+  margin-top:15px;
+  color:#727272;
+  font-weight:300;
+  background-color:#ffeeee;
+  }
+  blockquote.quotes span {
+    	display: block;
+    	background-repeat: no-repeat;
+    	background-position: bottom right;
+		margin-right:20px;
+		margin-top:-25px;
+}
+
+.about-title {  
+        font-weight: 300;
+        text-transform: none;
+        line-height: 32px;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding-top:15px;
+        font-size:14px;
+}
+.text-indent{
+    text-indent: 50px;
+}      
+  
+.signature{ 
+        margin:20px 40px 20px 0; 
+        font-family: 'Sacramento', cursive; 
+        font-size:30px;
+        letter-spacing: 3px;
+        text-align:center;
+}
+.about-image {
+    text-align:center;
+}
+.about-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 190px;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.about-details {
+    margin-top: 50px;
+}
+
+.about-title h6 {
+    text-align: center;
+}
+
+.line{
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 1px auto;
+    background-color:  rgb(164 61 144);
+}
+.button-for-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-link{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgb(164 61 144);
+    color: #292929;
+    border-color: #ccc;
+    width: 25%;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    align-content: space-between;
+    margin: 5px;
+}
+.button-link a{
+    color: white;
+    text-decoration:none;
+}
+
+@media (max-width:1000px) {
+    .about-section{
+        height: auto;
+    }
+    .button-link a{
+      line-height:20px;
+    }
+    .about-image img {
+        margin-top: 20px;
+    }
+    .button-for-action{
+       margin-bottom:20px;
+    }
+}
