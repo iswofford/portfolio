@@ -19,10 +19,10 @@ const Projects = () => {
   };
 
   return (
-    <section className="container" id="projects">
+    <section className="container projects" id="projects">
       <div className="section-title">
-        <h2>Summary of projects I worked on</h2>
-        <hr />
+        <h5>Summary of projects I worked on</h5>
+        <div className="line"></div>
       </div>
 
       <div className="row">

@@ -25,10 +25,9 @@ const About = () => {
         </article>
 
         <article className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-          <div className="about-title">
-            <header className="about-title">
-              <h6>About Me</h6>
-            </header>
+          <div className="about-title"> 
+              <h5>About Me</h5>
+              <div className="line"></div>
             <div>
               <p className="text-indent">
                 I am passionate about technology, innovation, online media, and

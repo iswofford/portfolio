@@ -22,7 +22,8 @@ const TechStack = () => {
                 "AWS",
                 "Rest API's",
                 "Agile",
-                "Git"
+                "Git",
+                "Accesibility"     
               ],
               autoStart: true,
               loop: true,

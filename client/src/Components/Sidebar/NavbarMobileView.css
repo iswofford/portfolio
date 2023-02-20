@@ -1,10 +1,10 @@
-.mobile-view-navbar{
+nav .mobile-view-navbar{
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
-.navbar-header{
+nav .navbar-header{
     width: 100%;
     background-color: rgb(164 61 144);
     color: white;
@@ -16,13 +16,46 @@
     cursor: pointer;
     margin-top: 20px;
 }
-
-.mobile-nav{
+nav .mobile-nav{
     height: auto;
     width: 210px;
     background-color: rgb(164 61 144);
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.close{
+    height: auto;
+    background-color: rgb(164 61 144);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.close:focus {
+    outline: none;
+  }
+  
+  .close path {
+    stroke: white;
+    stroke-width: 4px;
+  }
+  
+.svg.close {
+    position:relative;
+    float:right;
+    right:10px;
+ }
+
+svg.close path{
+  stroke:white;
+  stroke-width:4px;
+}
+
+.mobile-nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px;
+    color: white;
 }
 .mobile-nav svg.close {
     position:relative;
@@ -33,14 +66,6 @@
 .mobile-nav svg.close path{
   stroke:white;
   stroke-width:4px;
-}
-
-.mobile-nav ul li{
-    color: white;
-    list-style-type: none;
-    cursor: pointer;
-    text-decoration: none;
-    margin-top: 30px;
 }
 
 .mobile-nav ul li a{
