@@ -4,7 +4,7 @@ import ReactPaginate from "react-paginate";
 
 const Pagination = ({handlePageClick,pageCount}) => {
   return (
-    <div>
+    <>
       <ReactPaginate
         breakLabel="..."
         breakClassName="break-class"
@@ -24,7 +24,7 @@ const Pagination = ({handlePageClick,pageCount}) => {
         pageRangeDisplayed={2}     
         pageLinkClassName="selected-page"
       />
-    </div>
+    </>
   );
 };
 

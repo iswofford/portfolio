@@ -2,6 +2,23 @@
   height: auto;
   margin-top:50px;
 }
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section-title hr {
+  border-top: 3px solid #bbb;
+  width: 50px;
+  margin: 0 auto;
+}
 
 #dark .projects{
   color: white;

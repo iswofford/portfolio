@@ -3,6 +3,7 @@ import "./Projects.css";
 import ProjectInfo from "./ProjectInfo";
 import Pagination from "../Pagination/Pagination";
 import { projects } from "../../Data.js";
+
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const PER_PAGE = 5;
@@ -16,27 +17,26 @@ const Projects = () => {
   const generateKey = (pre) => {
     return `${pre}_${new Date().getTime()}`;
   };
+
   return (
-    <div className="container projects" id="projects">
+    <section className="container" id="projects">
       <div className="section-title">
-        <h5>Summary of projects I worked on</h5>
-        <span className="line"></span>
+        <h2>Summary of projects I worked on</h2>
+        <hr />
       </div>
 
       <div className="row">
         {currentPageData?.map((item) => (
-          <div
-            className="col-xl-12 col-lg-12 col-md-12 col-sm-12"
-            key={generateKey(item.id)}
-          >
+          <div className="col-sm-12 col-md-6 col-lg-12 col-xl-12" key={generateKey(item.id)}>
             <ProjectInfo {...item} />
           </div>
         ))}
       </div>
-      <div className="pagination-details">
+
+      <nav aria-label="Pagination" className="pagination-details">
         <Pagination pageCount={pageCount} handlePageClick={handlePageClick} />
-      </div>
-    </div>
+      </nav>
+    </section>
   );
 };
 
