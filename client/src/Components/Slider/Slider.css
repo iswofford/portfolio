@@ -42,7 +42,10 @@
 .slick-disable{
    pointer-events:none;
 }
-  
+.slick-arrow {
+  z-index: 1;
+}
+
 @media (max-width: 480px) {
   .products-slider {
     padding: 42px 42px 10px 42px;

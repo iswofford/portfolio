@@ -4,15 +4,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { projectSliderData }  from '../../Data.js';
-const PrpjectsSlider = () => {
+const ProjectsSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 400,
+    speed: 500,
     slidesToShow: 2,
-    adaptiveHeight: true,
-    initialSlide: 0,
+    slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 4000,
     rows: 1,
     slidesPerRow: 1,
     responsive: [
@@ -31,6 +31,9 @@ const PrpjectsSlider = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          speed: 300,
+          touchMove: true,
+          variableWidth: false,
         },
       },
       {
@@ -38,10 +41,17 @@ const PrpjectsSlider = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 2,
+          speed: 300,
+          touchMove: true,
+          variableWidth: false,
+          arrows: false,
+          dots: true,
         },
       },
     ],
   };
+  
   const generateKey = (pre) => {
     return `${pre}_${ new Date().getTime()}`;
 }
@@ -71,4 +81,4 @@ const PrpjectsSlider = () => {
   );
 };
 
-export default PrpjectsSlider;
+export default ProjectsSlider;

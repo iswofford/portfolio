@@ -20,6 +20,9 @@ const TechStack = () => {
                 "Redux Toolkit",
                 "Node.js",
                 "AWS",
+                "Rest API's",
+                "Agile",
+                "Git"
               ],
               autoStart: true,
               loop: true,

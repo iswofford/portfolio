@@ -4,7 +4,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Project from "./Components/Projects/Projects";
 import TechStack from "./Components/TeckStack/TechStack";
-import PrpjectsSlider from "./Components/Slider/Slider";
+import ProjectsSlider from "./Components/Slider/Slider";
 import Footer from "./Components/Footer/Footer";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import NavbarMobileView from "./Components/Sidebar/NavbarMobileView";
@@ -16,7 +16,7 @@ function App() {
       <NavbarMobileView />
       <About />
       <TechStack /> 
-      <PrpjectsSlider/>
+      <ProjectsSlider/>
       <Project /> 
       <Testimonials />
       <Contact />
