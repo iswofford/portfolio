@@ -17,8 +17,8 @@ const ProjectInfo = ({ title, body }) => {
          <FcExpand size={20} />}</p>
       </div>
       <div className="description">
-        {show ? body?.map((item) => 
-        <p key={generateKey(item.id)}>{item.description}</p>) : null}
+        {show ? body?.map((item,index) => 
+        <p key={generateKey(index)}>{item.description}</p>) : null}
       </div>
     </div>
   );

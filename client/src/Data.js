@@ -11,6 +11,11 @@ import Slide10  from "../src/Images/web_ipad.jpg";
 import Slide11  from "../src/Images/web_med.jpg";
 import Slide12  from "../src/Images/web_led.jpg";
 import Slide13  from "../src/Images/web_allstate.jpg";
+import Slide14  from "../src/Images/Optimized-signhere.png";
+import Slide15  from "../src/Images/Optimized-streampage.png";
+import Slide16  from "../src/Images/Membership.jpg";
+import Slide17  from "../src/Images/web_interface.jpg";
+import Slide18  from "../src/Images/Optimized-thankyou.png";
 export const projects = [
     {
       id: 1,
@@ -302,6 +307,26 @@ export const projectSliderData = [
       id: 13,
       img: Slide13
     },
+    {
+      id: 14,
+      img: Slide14
+    },
+    {
+      id: 15,
+      img: Slide15
+    },
+    {
+      id: 16,
+      img: Slide16
+    },
+    {
+      id: 17,
+      img: Slide17
+    },
+    {
+      id: 18,
+      img: Slide18
+    }
 ];
 
 export   const testimonialsData = [

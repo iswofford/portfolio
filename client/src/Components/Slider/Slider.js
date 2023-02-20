@@ -54,8 +54,8 @@ const PrpjectsSlider = () => {
       
       <div className="slider-slide">
         <Slider {...settings} >
-          {projectSliderData?.map((item) => (
-            <div className="col-lg-12 col-md-12 col-xl-12 col-xs-12" key={generateKey(item.id)}>
+          {projectSliderData?.map((item,index) => (
+            <div className="col-lg-12 col-md-12 col-xl-12 col-xs-12" key={generateKey(index)}>
               <div className="card content-slider">
                 <img
                   src={item.img}

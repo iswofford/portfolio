@@ -23,9 +23,8 @@ label.phone, label.email{
     display: flex;
     justify-content: flex-end;
 }
-.mail a{
-    color:white;
-    padding-left:10px;
+#phone{
+    text-decoration:none!important;
 }
 .mail{
     margin-top: -2px;
@@ -39,7 +38,11 @@ label.phone, label.email{
         text-align:center;
     }
     .scroll-to-top {
-        right: 14px !important;
-        bottom: 45px !important;
+        right:20px!important;
+        text-align:center!important;
     }
+    .scroll{
+        text-align:center!important;
+    }
+    
 } 

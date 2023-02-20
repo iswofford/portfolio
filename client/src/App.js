@@ -26,6 +26,7 @@ function App() {
         height="20"
         width="20"
         color="white"
+        className="scroll"
         style={{
           borderRadius: "90px",
           backgroundColor: "#727171"

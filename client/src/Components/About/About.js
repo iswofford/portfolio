@@ -9,10 +9,7 @@ const About = () => {
         <article className="col-lg-6 col-md-12 col-sm-12 col-xs-6">
           <div className="about-image">
             <figure>
-              <img
-                src={ProfilePic}
-                alt="A headshot of Irina Swofford"
-              />
+              <img src={ProfilePic} alt="A headshot of Irina Swofford" />
               <figcaption role="caption">
                 <blockquote className="quotes">
                   "Your work is going to fill a large part of your life, and the

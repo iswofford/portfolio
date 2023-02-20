@@ -24,8 +24,10 @@
     border-radius: 5px;
     align-self: center
 }
-
-
+.slick-slider {
+    touch-action: unset!important;
+    -webkit-tap-highlight-color: unset!important;
+}
 #dark .content-slider{
     background-color: #38004C;
     color: white;
@@ -33,16 +35,34 @@
     -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
 }
-
-
-.slick-prev:before{
-    color:  rgb(164 61 144)!important;
-    font-size: 30px;
+.slick-slider {
+    touch-action: unset!important;
+    -webkit-tap-highlight-color: unset!important;
 }
-.slick-next:before{
-    color:  rgb(164 61 144)!important;
-    font-size: 30px;
-}
+.slick-prev {
+    left: -40px!important;
+    transform:unset!important; 
+  }
+  .slick-prev {
+    transform:unset!important; 
+  }
+  .slick-prev:before{
+    color: rgb(164 61 144)!important;
+    font-size:30px;
+    left: -40px!important;
+    transform:unset!important;
+  }
+  
+  .slick-next:before{
+    color: rgb(164 61 144)!important;
+    font-size:30px!important;
+    right:-25px!important;
+    transform:unset!important;
+  }
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: unset!important;
+  }
+
 .slick-disable{
     color: rgb(123, 18, 222);
 }
