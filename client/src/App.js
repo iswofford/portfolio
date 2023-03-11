@@ -1,12 +1,9 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
-import Contact from "./Components/Contact/Contact";
-import Project from "./Components/Projects/Projects";
-import TechStack from "./Components/TeckStack/TechStack";
-import ProjectsSlider from "./Components/Slider/Slider";
+import Requirments from "./Components/TeckStack/TechStack";
+import ConferenceDemo from "./Components/ConferenceDemo/ConferenceDemo";
 import Footer from "./Components/Footer/Footer";
-import Testimonials from "./Components/Testimonials/Testimonials";
 import NavbarMobileView from "./Components/Sidebar/NavbarMobileView";
 import ScrollToTop from "react-scroll-to-top";
 function App() {
@@ -15,11 +12,8 @@ function App() {
       <Navbar />
       <NavbarMobileView />
       <About />
-      <TechStack /> 
-      <ProjectsSlider/>
-      <Project /> 
-      <Testimonials />
-      <Contact />
+      <Requirments /> 
+      <ConferenceDemo />
       <Footer />
       <ScrollToTop
         smooth

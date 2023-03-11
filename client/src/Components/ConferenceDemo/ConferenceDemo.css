@@ -1,0 +1,27 @@
+.demo-section {
+  margin-top: 40px;
+  height: auto;
+}
+.demo-section h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+a.demo,
+a.github {
+  color: rgb(164 61 144);
+  font-weight: 700;
+  font-style: italic;
+}
+a.github {
+  padding-left: 10px;
+}
+ul{
+margin-bottom: unset;
+}
+.tech-content p {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

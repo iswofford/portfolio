@@ -15,8 +15,6 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", onChangeNavColor);
-
-    // cleanup the event listener when component unmounts
     return () => window.removeEventListener("scroll", onChangeNavColor);
   }, []);
 
@@ -39,7 +37,6 @@ const Navbar = () => {
             About
           </Link>
         </li>
-  
         <li className="nav-item">
           <Link
             to="techstack"
@@ -47,62 +44,24 @@ const Navbar = () => {
             smooth={true}
             offset={-100}
             duration={100}
-            aria-label="Tech Stack section"
+            aria-label="Conference requirments"
           >
-            Tech Stack
+            Conference challenge
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="demo"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+            aria-label="Conference demo"
+          >
+            Conference demo
           </Link>
         </li>
         
-        <li className="nav-item">
-          <Link
-            to="slider"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-            aria-label="Projects slider section"
-          >
-            Projects slider
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <Link
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-            aria-label="Projects summary section"
-          >
-            Projects summary
-          </Link>
-        </li>
-
-        <li className="nav-item">
-          <Link
-            to="testimonials"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-            aria-label="Testimonials section"
-          >
-            Testimonials
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            to="contacts"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={100}
-            aria-label="Contact me section"
-          >
-            Contact me
-          </Link>
-        </li>
       </ul>
     </nav>
   );
